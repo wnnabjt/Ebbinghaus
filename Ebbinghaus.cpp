@@ -37,7 +37,6 @@ int main() {
         ss1 >> c;
         ss1 >> day;
         ss1.clear();
-        // cout << database << ' ' << lists << endl;
         for(int i = 0; i < 5; i ++) {
             int mouths = mouth, days = day;
             if(day + intervel[i] > num[mouth]) {
@@ -51,7 +50,6 @@ int main() {
             sstemp << days;
             sstemp.clear();
             sstemp >> temp;
-            // cout << "in " << temp << ' ' << lists << endl;
             mp[temp].push_back(lists);
         }
     }
